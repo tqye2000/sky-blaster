@@ -1,0 +1,31 @@
+<!-------------------------------------------------------------------------------------------------------->
+<!-- Simple Shooting Game HTML Template                                                                 -->
+<!-- This template includes a title, a canvas for the game, a score display, and a game over screen     -->
+<!-- The game is a simple shooting game where the player can shoot enemies and keep track of their score-->
+<!-- The game over screen displays the final score and provides a button to restart the game            -->
+<!-- The game is designed to be simple and easy to understand, making it suitable for beginners         -->
+<!-- The game is built using HTML, CSS, and JavaScript                                                  -->
+<!-- History                                                                                            -->
+<!-- When      | Who           | What                                                                   -->
+<!-- 2023-10-01| GPT-4o        | Initial version                                                        -->
+<!-------------------------------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Shooting Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="gameTitle">💥Sky Blaster💥</h1>
+  <canvas id="gameCanvas"></canvas>
+  <div id="score">Score: 0</div>
+  <div id="gameOver" class="hidden">
+    <p>Game Over!</p>
+    <p id="finalScore"></p>
+    <button id="restartBtn">Restart</button>
+    <p>Or press any key to restart</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

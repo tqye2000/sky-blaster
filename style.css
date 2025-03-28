@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #222;
+    font-family: Arial, sans-serif;
+  }
+  
+  canvas {
+    display: block;
+    background: #333;
+  }
+  
+  #score {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #fff;
+    font-size: 24px;
+    z-index: 10;
+  }
+  
+  #gameTitle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #0ff;
+    font-size: 28px;
+    z-index: 10;
+    font-family: 'Arial Black', Gadget, sans-serif;
+  }
+  
+  #gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 28px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    z-index: 20;
+  }
+  
+  #gameOver button {
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #gameOver button:hover {
+    background: #eee;
+  }
+  
+  .hidden {
+    display: none;
+  }
